@@ -3,15 +3,18 @@
     --color-default-: ;
     --color-primary-: ;
     --color-secondary-: ;
-    --color-tertiary-: ;
+    --color-tertiary-: #1F4068;
+    --color-quaternary-: #E43F5A;
     --color-bg-: #162447;
 }
+/* -------------------------------------------------------------- */
 
-
+ */
 :root {
     scroll-behavior: smooth;
   }
 
+/* -------------------------------------------------------------- */
 
 * {
     font-family: "Poppins", sans-serif;
@@ -51,6 +54,11 @@ body {
     color: white;
 }
 
+.navbar-link:hover {
+    color: var(--color-quaternary-);
+    transition-duration: 0.5s;
+}
+
 .hero {
     display: flex;
     flex-direction: row;
@@ -86,7 +94,12 @@ body {
 
 #downloadcv-btn {
     font-size: x-large;
-    background-color: #1F4068;
+    background-color: var(--color-tertiary-);
+}
+
+#downloadcv-btn:hover {
+    background-color: var(--color-quaternary-);
+    transition-duration: 0.5s;
 }
 
 .btn-array {
@@ -107,14 +120,15 @@ body {
     gap: 1em;
 }
 
-.bi-github,
-.bi-linkedin {
+.btn-array-icons {
     font-size: xx-large;
     color: white;
 }
 
 .btn-array-icons:hover {
     cursor: pointer;
+    color: var(--color-quaternary-);
+    transition-duration: 0.5s;
 }
 
 #hero-breaker {
