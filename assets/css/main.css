@@ -25,39 +25,7 @@ body {
     color: white;
 }
 
-.main-container {
-    margin: 0 5rem 0 5rem;
-}
 
-#menu-icon {
-    display: none;
-    color: white;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar-link {
-    display: block;
-    font-size: large;
-    text-decoration: none;
-    margin: 0 1rem;
-    color: white;
-}
-
-.navbar-link:hover {
-    color: var(--color-quaternary-);
-    transition-duration: 0.5s;
-}
 
 .hero {
     display: flex;
