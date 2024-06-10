@@ -4,8 +4,10 @@
     --color-primary-: ;
     --color-secondary-: ;
     --color-tertiary-: #1F4068;
-    --color-quaternary-: #E43F5A;
-    --color-bg-: #162447;
+    --color-4-: #E43F5A;
+    --color-5-: #162447;
+    --color-bg-: #000000;
+    --color-secondary-bg-:#4c4d4d;
 }
 /* -------------------------------------------------------------- */
 
@@ -25,3 +27,38 @@ body {
     color: white;
 }
 
+.hero {
+    margin-top: 6rem;
+}
+
+#profile-photo {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.btn-downloadcv {
+    font-size: 1rem;
+}
+
+.btn-github,
+.btn-linkedin {
+    font-size: 2rem;
+}
+
+.skills,
+.featured,
+.infoschol,
+.ebeyonds {
+    background-color:#181818;
+    margin: 5rem 0;
+}
+
+.projects,
+.contact {
+    margin: 5rem 0;
+}
+
+.project-item {
+    background-color:#181818;
+}
