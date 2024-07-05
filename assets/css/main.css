@@ -32,8 +32,6 @@ body {
 }
 
 #profile-photo {
-    width: 400px;
-    height: auto;
     border-radius: 100%;
 }
 
