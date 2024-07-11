@@ -33,15 +33,20 @@ body {
 
 #profile-photo {
     border-radius: 100%;
+    user-select: none;
 }
 
 .btn-downloadcv {
     font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
 }
 
 .btn-github,
 .btn-linkedin {
     font-size: 2rem;
+    user-select: none;
+    cursor: pointer;
 }
 
 a {
@@ -65,4 +70,11 @@ a {
 
 .project-item {
     background-color:#181818;
+}
+
+.external-icon {
+    margin-left: 5px;
+    width: 20px;
+    height: auto;
+    user-select: none;
 }
