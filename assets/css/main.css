@@ -44,10 +44,16 @@ body {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: underline;
+    color: white;
+}
+
 .skills,
 .featured,
 .infoschol,
-.ebeyonds {
+.ebeyonds,
+.cuttingedge24 {
     background-color:#181818;
     margin: 5rem 0;
 }
